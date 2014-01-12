@@ -1,0 +1,66 @@
+//for factorial
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.math.BigInteger;
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int t,x;
+		Scanner reader = new Scanner(System.in);
+		//System.out.println("Enter the first number");
+		//get user input for a
+		t=reader.nextInt();
+		for(int v=1;v<=t;v++)
+		{
+			x=reader.nextInt();
+			BigInteger fact = new BigInteger("1");
+			for(int i=1;i<=x;i++)
+			{
+				fact=fact.multiply(new BigInteger(Integer.toString(i)));
+			}
+			System.out.println(fact);
+		}
+	}
+}
+
+
+
+
+//Multiplying
+
+
+
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.math.BigInteger;
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int t,x;
+		Scanner reader = new Scanner(System.in);
+		//System.out.println("Enter the first number");
+		//get user input for a
+		t=reader.nextInt();
+		for(int v=1;v<=t;v++)
+		{
+			x=reader.nextInt();
+			BigInteger fact = new BigInteger("1");
+			for(int i=1;i<=x;i++)
+			{
+				fact=fact.multiply(new BigInteger(Integer.toString(i)));
+			}
+			System.out.println(fact);
+		}
+	}
+}
+
